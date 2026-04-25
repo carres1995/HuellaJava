@@ -1,0 +1,35 @@
+# ═══ Build ═══
+target/
+build/
+*.class
+*.jar
+*.war
+
+# ═══ IDE ═══
+.idea/
+*.iml
+.vscode/
+.settings/
+.project
+.classpath
+*.swp
+*~
+
+# ═══ OS ═══
+.DS_Store
+Thumbs.db
+
+# ═══ Database ═══
+data/
+*.db
+*.mv.db
+*.trace.db
+
+# ═══ Logs ═══
+*.log
+
+# ═══ Environment ═══
+.env
+
+# ═══ Database credentials (never commit) ═══
+src/main/resources/database.properties
